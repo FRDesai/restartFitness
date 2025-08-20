@@ -27,7 +27,7 @@ export default function Home() {
       </div>
 
       {/* Content Split (Left + Right) */}
-      <div className="relative z-10 flex flex-col md:flex-row justify-between items-center min-h-screen text-white px-6 sm:px-8 md:px-16 pb-10">
+      <div className="relative z-10 flex flex-col md:flex-row md:justify-between justify-center items-center min-h-screen text-white px-6 sm:px-8 md:px-16 pb-10">
         {/* Left Side Content */}
         <div className="flex flex-col items-start text-left max-w-lg space-y-4 sm:space-y-6 animate-fade-up">
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-tight">
